@@ -13,7 +13,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "npm app.js"
   },
   "name": "server",
   "version": "1.0.0",
