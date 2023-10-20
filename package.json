@@ -13,7 +13,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "npm app.js"
+    "start": "node app.js"
   },
   "name": "server",
   "version": "1.0.0",
