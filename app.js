@@ -24,10 +24,9 @@ app.use('/uploads', express.static('uploads'));
 
 app.use(
   cors({
-    origin: "http://localhost:3004",
+    origin: process.env.BASE_URL,
   })
 );
-
 
 app.use(express.json());
 
